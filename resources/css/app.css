@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: BlinkMacSystemFont, system-ui, sans-serif;
+    }
+}
+
+.circleBg {
+    padding-top: 20px;
+    height: 30em;
+    width: 30em;
+    cursor: pointer;
+    border-radius: 100%;
+    background-image: radial-gradient(circle at 50% 0px, red, rgba(242, 13, 13, 0.8) 10%, rgba(230, 26, 26, 0.6) 20%,
+            rgba(204, 51, 51, 0.4) 30%, rgba(166, 89, 89, 0.2) 40%, rgba(128, 128, 128, 0) 50%),
+        radial-gradient(circle at 85.3553% 14.6447%, rgb(255, 191, 0), rgba(242, 185, 13, 0.8) 10%,
+            rgba(230, 179, 26, 0.6) 20%, rgba(204, 166, 51, 0.4) 30%, rgba(166, 147, 89, 0.2) 40%, 
+            rgba(128, 128, 128, 0) 50%), 
+        radial-gradient(circle at 100% 50%, rgb(128, 255, 0),
+
+            rgba(128, 242, 13, 0.8) 10%, rgba(128, 230, 26, 0.6) 20%, rgba(128, 204, 51, 0.4) 30%,
+            rgba(128, 166, 89, 0.2) 40%, rgba(128, 128, 128, 0) 50%), 
+        radial-gradient(circle at 85.3553% 85.3553%,
+            rgb(0, 255, 64), rgba(13, 242, 70, 0.8) 10%, rgba(26, 230, 77, 0.6) 20%, rgba(51, 204, 89, 0.4) 30%,
+            rgba(89, 166, 108, 0.2) 40%, rgba(128, 128, 128, 0) 50%),
+        radial-gradient(circle at 50% 100%, rgb(0, 255, 255),
+            rgba(13, 242, 242, 0.8) 10%, rgba(26, 230, 230, 0.6) 20%, rgba(51, 204, 204, 0.4) 30%, rgba(89, 166, 166, 0.2) 40%,
+            rgba(128, 128, 128, 0) 50%), 
+        radial-gradient(circle at 14.6447% 85.3553%, rgb(0, 64, 255), rgba(13, 70, 242, 0.8) 10%,
+            rgba(26, 77, 230, 0.6) 20%, rgba(51, 89, 204, 0.4) 30%, rgba(89, 108, 166, 0.2) 40%, rgba(128, 128, 128, 0) 50%),
+        radial-gradient(circle at 0px 50%, rgb(127, 0, 255), rgba(128, 13, 242, 0.8) 10%, rgba(128, 26, 230, 0.6) 20%,
+            rgba(128, 51, 204, 0.4) 30%, rgba(128, 89, 166, 0.2) 40%, rgba(128, 128, 128, 0) 50%),
+        radial-gradient(circle at 14.6447% 14.6447%, rgb(255, 0, 191), rgba(242, 13, 185, 0.8) 10%,
+            rgba(230, 26, 179, 0.6) 20%, rgba(204, 51, 166, 0.4) 30%, rgba(166, 89, 147, 0.2) 40%, rgba(128, 128, 128, 0)
+             50%);
+    background-position-x: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-position-y: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-size: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-attachment: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-origin: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-clip: initial, initial, initial, initial, initial, initial, initial, initial;
+    background-color: initial;
+}
