@@ -101,6 +101,8 @@ class RGBController extends Controller
         };
 
         return([$r,$g,$b]);
+
+        
     }
 
     private function hue_2_rgb($v1,$v2,$vh) {
